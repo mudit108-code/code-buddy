@@ -19,10 +19,16 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    // Start the development server
     "start": "react-scripts start",
+    // Build the project for production
     "build": "react-scripts build",
+    // Run tests
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    // Eject from create-react-app (not recommended unless necessary)
+    "eject": "react-scripts eject",
+    // Run ESLint for code linting
+    "lint": "eslint ."
   },
   "eslintConfig": {
     "extends": [
